@@ -2,13 +2,14 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'bayut-production.s3.eu-central-1.amazonaws.com',
+        protocol: "https",
+        hostname: "bayut-production.s3.eu-central-1.amazonaws.com",
       },
     ],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
